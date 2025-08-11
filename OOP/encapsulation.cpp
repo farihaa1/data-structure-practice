@@ -1,0 +1,1 @@
+// encapsulation is wrapping up of data and member functions in a single unit called class
