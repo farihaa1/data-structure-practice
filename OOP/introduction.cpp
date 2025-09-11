@@ -14,7 +14,17 @@ using namespace std;
 // 3.Inheritance
 // 4.polymorphism
 
-// 1. encapsulation is wrapping up of data and member functions in a single unit called class
+// 1. encapsulation is wrapping up of data and member functions in a single unit called class -> helps in data hiding by making them private
+
+
+class account{
+    private:
+        double balance;
+
+    public:
+        string accountId;
+        string usename;
+};
 
 
 class Teacher {
@@ -32,10 +42,13 @@ public:
     void changeDept(string newDept){
         dept = newDept;
     }
-    void setSalary(double s){ //setter
+
+    //setter
+    void setSalary(double s){ 
         salary = s;
     }
-    double getSalary(){ //getter
+    //getter
+    double getSalary(){ 
         return salary;
     }
 };
